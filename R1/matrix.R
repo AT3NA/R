@@ -1,0 +1,7 @@
+a<-matrix(1:9,nrow = 3,ncol = 3)
+trans<-t(a)
+rsum<-rowSums(trans)
+csum<-colSums(trans)
+print(trans)
+print(rsum)
+print(csum)
